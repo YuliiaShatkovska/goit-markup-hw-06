@@ -125,7 +125,7 @@ img {
 }
 
 .mobile-icon {
-  stroke: #2e2f42;
+  fill: currentColor;
   position: absolute;
   top: 0;
   left: 0;
@@ -176,7 +176,8 @@ img {
 }
 
 .mobile-close-icon {
-  fill: #2e2f42;
+  fill: currentColor;
+  stroke: currentColor;
 }
 
 .mobile-item:not(:last-child) {
