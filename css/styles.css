@@ -180,8 +180,8 @@ img {
 }
 
 .mobile-close-icon {
-  fill: currentColor;
-  stroke: currentColor;
+  /* fill: currentColor; */
+  stroke: #2e2f42;
 }
 
 .mobile-item:not(:last-child) {
