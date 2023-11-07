@@ -536,22 +536,20 @@
   }
 
   .go-top {
+    width: 60px;
+    height: 60px;
     position: fixed;
-    right: 50px;
-    bottom: 50px;
+    right: 20px;
+    bottom: 20px;
     cursor: pointer;
     display: none;
     font-size: 20px;
-    color: rgba(236, 228, 188, 0.5);
-    border: 1px solid rgba(236, 228, 188, 0.5);
-    background-color: var(--background-light-color);
-    padding: 15px 10px;
-  }
-
-  .go-top:hover {
-    color: rgba(0, 51, 153, 0.8);
-    border: 1px solid rgba(0, 51, 153, 0.8);
-    background-color: rgba(0, 51, 153, 0.15);
+    color: var(--main-light-text-color);
+    border: 1px solid grey;
+    background-color: var(--brand-color);
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
   }
 
   .go-top--show {

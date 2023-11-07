@@ -5,7 +5,7 @@ window.addEventListener('scroll', trackScroll);
 goTopBtn.addEventListener('click', goTop);
 
 function trackScroll() {
-  const scrolled = window.pageYOffset;
+  const scrolled = window.scrollY;
 
   const coords = document.documentElement.clientHeight;
 
@@ -17,7 +17,7 @@ function trackScroll() {
 }
 
 function goTop() {
-  if (window.pageYOffset > 0) {
+  if (window.scrollY > 0) {
     window.scrollBy(0, -25); //другий аргумент - це швидкість скролу
     setTimeout(goTop, 0);
   }

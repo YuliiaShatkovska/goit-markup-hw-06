@@ -819,3 +819,16 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-black-text-color);
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(36, 36, 36, 0.1);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #242424;
+  border-radius: 12px;
+}
+
+.go-top {
+  display: none;
+}
